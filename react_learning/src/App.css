@@ -1,0 +1,16 @@
+.root {
+    display: flex;
+    width: 92vw;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.card_footer {
+    display: flex;
+    flex-direction: column;
+
+}
