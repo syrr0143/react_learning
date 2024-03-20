@@ -1,0 +1,14 @@
+.warning {
+    border-radius: 1rem;
+    width: 5vw;
+    border: none;
+    height: 5vh;
+    background-color: palegreen;
+    color: white;
+}
+
+.warning:hover {
+
+    transform: scale(1.2);
+    background-color: rgb(65, 250, 65);
+}

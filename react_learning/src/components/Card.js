@@ -12,7 +12,7 @@ function GridExample() {
             {blog.map((post, idx) => (
                 <Col key={idx}>
                     <Card>
-                        <Card.Img variant="top" src={post.imageUrl} />
+                        <Card.Img variant="top" style={{ width: "auto" }} src={post.imageUrl} />
                         <Card.Body>
                             <Card.Title>{post.title}</Card.Title>
                             <Card.Text>
