@@ -5,6 +5,7 @@ import Password from './components/Password'
 import Menu from './components/Menu'
 import Clock from './components/Clock'
 import Notification from './components/Notification'
+import Tabbing from './components/Tabbig'
 function App() {
   const details = {
     name: "sumit",
@@ -13,8 +14,7 @@ function App() {
 
   return (
     <>
-      <Clock />
-      <Notification />
+      <Tabbing/>
     </>
 
   );
