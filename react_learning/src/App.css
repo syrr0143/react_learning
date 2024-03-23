@@ -18,6 +18,12 @@
 
 }
 
+.forms {
+    margin: 0 auto;
+    padding: 10rem 10rem;
+    width: 70vw;
+}
+
 .faqouter {
     width: 1320px;
     margin: auto;
