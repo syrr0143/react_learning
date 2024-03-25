@@ -17,6 +17,7 @@ import Tabbig from './components/Tabbig';
 import Error404 from './components/Error404';
 import Form_handling from './components/Form_handling';
 import Toastify from './components/Toastify';
+import Useeffect from './components/Useeffect';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let routesused = createBrowserRouter(
   [
@@ -49,6 +50,9 @@ let routesused = createBrowserRouter(
     ,{
       path:'/Toastify',
       element:<Toastify/>
+    },{
+      path:'/useeffect',
+      element:<Useeffect/>
     }
 
   ]
